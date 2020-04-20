@@ -41,3 +41,14 @@ const App:React.FC = props=>{
 };
 
 export default App;
+
+class MyApp extends React.Component{
+  constructor(props: any){
+    super(props)
+    this.forceUpdate();
+  }
+
+  render(){
+    return null
+  }
+}
